@@ -1,0 +1,17 @@
+#!/bin/bash
+
+cat <<_HELP
+
+The git captive account has the following commands:
+
+ls           - list existing repositories
+new reponame - create a new bare repository (reponame.git)
+               A description can be added as a 3rd parameter.
+help         - this information
+
+Repositories are accessed via ssh (public key), and have urls
+of the form ${HOSTNAME}:repo.git
+
+Commands must be installed in `pwd`/git-shell-commands.
+
+_HELP
