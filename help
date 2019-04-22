@@ -9,6 +9,8 @@ new reponame - create a new bare repository (reponame.git)
                A description can be added as a 3rd parameter.
 help         - this information
 
+exit         - Exit the shell and close the ssh connection.
+
 Repositories are accessed via ssh (public key), and have urls
 of the form ${HOSTNAME}:repo.git
 
