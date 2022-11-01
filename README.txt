@@ -37,7 +37,7 @@ have minimal dependencies.
 USAGE
 
 ssh git@example.com new repodir
-ssh git@ecample.com new repodir "Description"
+ssh git@example.com new repodir "Description"
 
 ssh git@example.com ls
 
